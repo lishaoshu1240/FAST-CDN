@@ -1,5 +1,5 @@
 # What is FAST-CDN？
-FAST-CDN是一款基于Nginx+lua+redis打造的CDN。基于FAST-CDN进行拓展，可以直接打造成商业化CDN（阿里CDN、又拍云CDN等厂商大部分的功能，FAST-CDN都有）。适合于准备自建CDN的企业、站长、CDN开发人员参考和学习。FAST-CDN只是商业化CDN的一部分（缓存节点）,自建CDN = DNS智能调度 + 缓存节点 + 管理平台（控制台）。
+FAST-CDN是一款基于Nginx+lua+redis打造的CDN。基于FAST-CDN进行拓展，可以直接打造成商业化CDN（阿里CDN、又拍云CDN等厂商80%的功能，FAST-CDN都有）。适合于准备自建CDN的企业、站长、CDN开发人员参考和学习。FAST-CDN只是商业化CDN的一部分（缓存节点）,自建CDN = DNS智能调度 + 缓存节点 + 管理平台（控制台）。
 
 DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产品，管理平台可以根据自己需求自己开发。
 
@@ -10,7 +10,10 @@ DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产�
 - FAST-CDN 利用了很多openresty第三方库，比如：lua-resty-dns（DNS解析）、lua-resty-checkups(回源管理)。
 
 #### 功能
-- 支持
+一、支持缓存时间配置
+  1、按照文件类型设置缓存过期时间；
+  2、按照文件目录设置缓存过期时间；
+  3、默认缓存策略（需借助动静分离，如果是静态资源，并且状态码处于200-400，则缓存8天；特别的301、302缓存20分钟；）；
 
 
 # Documents
