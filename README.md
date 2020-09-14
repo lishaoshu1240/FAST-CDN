@@ -29,7 +29,6 @@ DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产�
 	1、Http2支持，暂时不支持配置，默认全部支持；
 	2、源站SSL证书校验（OSCP功能）；
 	3、Https证书配置；
-
 	
 # Documents
 
