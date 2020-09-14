@@ -1,5 +1,5 @@
 # What is FAST-CDN？
-FAST-CDN是一款基于Nginx+lua+redis打造的CDN。基于FAST-CDN进行拓展，可以直接打造成国内大厂的商业化CDN，FAST-CDN各个功能也是直接对标阿里CDN、又拍云CDN、Ucloud CDN等。适合各个站长用于自己网站的网页缓存、以及准备自建CDN的同学参考和学习。FAST-CDN只是商业化CDN的一部分（缓存节点）,自建CDN = DNS智能调度 + 缓存节点 + 管理平台（控制台）。
+FAST-CDN是一款基于Nginx+lua+redis打造的CDN。基于FAST-CDN进行拓展，可以直接打造成商业化CDN（阿里CDN、又拍云CDN等厂商大部分的功能，FAST-CDN都有）。适合于准备自建CDN的企业、站长、CDN开发人员参考和学习。FAST-CDN只是商业化CDN的一部分（缓存节点）,自建CDN = DNS智能调度 + 缓存节点 + 管理平台（控制台）。
 
 DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产品，管理平台可以根据自己需求自己开发。
 
