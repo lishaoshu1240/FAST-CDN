@@ -18,7 +18,7 @@ DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产�
 二、回源功能
 
     1、源站设置，源站地址支持IP、域名格式；
-	2、回源host设置；
+2、回源host设置；
 	3、主备源、负载均衡；
 三、访问控制
 
@@ -30,6 +30,9 @@ DNS智能调度可以采用“CloudXns/DNSpod/阿里云解析”等成熟DNS产�
 	2、源站SSL证书校验（OSCP功能）；
 	3、Https证书配置；
 	
+
+# Installation
+
 # Documents
 
 # Version
